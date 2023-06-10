@@ -1,3 +1,5 @@
+@import './_variables';
+
 html,
 body {
   min-height: 100%;
@@ -8,4 +10,33 @@ body {
   background: linear-gradient(to right, #B76FFF 50%, #FFFFFF 50%);
   height: 100vh;
   width: 100%;
+
+  .navigation {
+    display: flex;
+    flex-direction: row;
+  }
+
+  h1 {
+    font-family: $font-main;
+    width: 100%;
+    font-size: 120px;
+    text-align: center;
+    color: #2F3E38;
+    letter-spacing: 10px;
+  }
+
+  .img-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: end;
+
+    img:first-of-type {
+      margin-right: 10px;
+    }
+
+    img:last-of-type {
+      margin-right: 92px;
+    }
+  }
 }
