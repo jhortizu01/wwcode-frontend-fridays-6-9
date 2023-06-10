@@ -1,0 +1,29 @@
+@import './variables';
+
+.menu {
+  width: 50%;
+  height: 82px;
+  display: flex;
+  flex-direction: row;
+
+  .material-symbols-outlined {
+    width: fit-content;
+    color: white;
+    font-size: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 200, 'opsz' 48;
+  }
+
+  h1 {
+    font-family: $font-main;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 0.15em;
+    flex-grow: 1;
+    text-align: center;
+  }
+}
